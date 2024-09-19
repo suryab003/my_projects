@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;1,700&display=swap');
+
+
+
+/* .sdfsd{
+    
+    margin-left: 30px;
+    color: black;
+} 
+
+*/
+
+
+.tit{
+    margin-left:80vw;
+    border-radius: 20px;
+    background-color: rgb(27, 133, 247);
+    color: white;
+    height: 40PX;
+    width: 160px;
+    border: 0rem;
+    font-size: 20px;
+}
+
+
+.titw{
+   text-align: right;
+   height: 40px;
+   background-color: navy;
+   color:white;
+   padding-top: 6px;
+   
+}
+.titwa{
+    height: 160px;
+    width: 140px;
+    border-radius: 100%;
+}
+
+/* .main{
+    display:  flex;
+    width:100% ;
+    height: 190px;
+    border: 1px solid whitesmoke;
+   
+   
+} */
+.main3{
+    width: 500px;
+}
+.main2{
+    /* margin-left: 300px; */
+    width: 30%;
+    border-left: 3px dotted grey;
+}
+.main1{
+    /* width: 30%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+}
+.ath{
+    justify-content: space-between;
+    
+}
+.thane{
+    display: flex;
+    border: 1px solid whitesmoke;
+    margin-left: 30px;
+   
+}
+
+.mum{
+    margin-left: 70px;
+}
+
+.list{
+    padding-right: 1349px;
+
+}
+
+.header{
+    background-color: rgb(27, 133, 247);
+    height: 50px;
+    text-align: right;
+    
+}
+
+/* button{
+    padding-top: 20px;
+} */
+
+.btn{
+    background-color: rgb(27, 133, 247);
+    color:white; 
+    border: 0rem; 
+    border-radius: 5px;
+    height: 40px;
+    width: 140px;
+
+}
+
+.omk{
+    position: absolute;
+    margin-top: -8px;
+    margin-left: -6px;
+    color: red;
+
+}
+
+
+
+@media screen and (max-width:880px){
+    .container{
+        flex-direction: column;
+    }
+    .main{
+        width: 100%;
+    }
+    
+}
+
+
+.main{
+    display: flex;
+
+}
+
+.sunblock2{
+    display: flex;
+}
+
+.sun-header{
+    background-color: navy;
+    padding: 1rem;
+    color: white;
+    display: flex;
+}
+
+.iii1{
+    width: 90vw;
+}
+
+@media (max-width: 880px){
+    .main{
+        display: block;
+    }
+
+    .main2, .main3{
+        padding: 4rem;
+    }
+    .header{
+        <i class="fa fa-list" style="font-size: 25px;"></i>
+        
+        <i  class="fa fa-bell" style="font-size:15px;padding-right: 10px"><span class="omk"><b>3</b></span></i>
+        <i class="fa fa-comment" style="font-size:15px;"><span><b>7</b></span></i> 
+        <i class="fa fa-user-circle" style="font-size:15px;">Admin</i>
+    }
+
+    
+    .sdfsd{
+        padding: 5rem;
+    }
+    .tit{
+        margin-left: 50vw;
+    }
+}
+
+
+.tit:hover{
+    background-color: black;
+}

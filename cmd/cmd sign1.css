@@ -1,0 +1,97 @@
+body{
+    font-family:"SF pro Text","SF pro Icons","Helvetica","Arial",sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    letter-spacing :0.022em;
+    /* background-color: #1D1D1F; */
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+/* /.main{
+    /* margin: 10%; */
+
+
+ .col-1{
+      width: 100%;
+ }
+
+ .col-2{
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+ }
+
+ .imp{
+    border: 1px solid white;
+ }
+
+ .sau1{
+    border:0px solid white;
+    border-bottom:2px solid red;
+    width: 300px;
+    text-align: center;
+    padding-bottom: 8px;
+ }
+
+ .sau{
+    border:opx solid white;
+    border-bottom:2px solid rgb(121, 121, 121);
+    width: 300px;
+    text-align: center;
+    padding-bottom: 8px;
+    border-top: 0ch;
+    border-left: 0ch;
+    border-right: 0ch;
+ }
+
+ .down{
+    margin-left: 230px;
+    color: grey;  
+    font-family: normal;
+ }
+
+ .header{
+    background-color:rgb(27, 57, 82);
+    width: 100%;
+    height: 50px;
+    text-align: end;
+    font-size: 40px;
+    color: white;
+ }
+
+ .sau::placeholder{
+    color:rgb(27, 57, 82);
+ }
+
+ .sau1::placeholder{
+    color: red;
+ }
+
+ .btn{
+    width: 13%;
+    height: 35px;
+    background-color: #E6E7E4;
+    color: white;
+    border-radius: 10px;
+    border: 0ch;
+
+ }
+
+input{
+    outline: none;
+}
+
+.btn:hover{
+    background-color:whitesmoke;
+}
+
+@media screen and (max-width: 880px){
+    .container{
+        flex-direction: column;
+    }.col-1 img{
+        width: 100%;
+    }
+}
